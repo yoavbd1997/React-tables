@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  color: hsl(211, 90%, 8%);
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: hsl(0, 6%, 87%);
+}
+
+
+label {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: monospace;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 25%;
+  padding: 7px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-bottom: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.updown {
+  color: black; /* Arrow color */
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  font-size: 24px; /* Adjust font size as needed */
+  position: relative;
+
+  
+}
+
+
+
+
+.buttunOptions {
+  background-color: hsl(211, 82%, 35%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  /* background-color: rgb(7, 46, 87); */
+  transform: translateY(-1px);
+}
